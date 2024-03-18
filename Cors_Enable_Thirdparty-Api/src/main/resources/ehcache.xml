@@ -1,0 +1,23 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="file:///C:/Users/91630/AppData/Local/Temp/Temp7f85d099-ba48-44fb-bb00-222334d9a42f_Cors_Enable_Thirdparty-Api.zip/Cors_Enable_Thirdparty-Api/pom.xml"
+         updateCheck="false">
+
+    <defaultCache
+            maxEntriesLocalHeap="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            memoryStoreEvictionPolicy="LRU" />
+
+    <!-- Define custom caches if needed -->
+
+    <cache name="customCacheName"
+        maxEntriesLocalHeap="1000"
+        eternal="false"
+        timeToIdleSeconds="300"
+        timeToLiveSeconds="600"
+        overflowToDisk="true"
+        memoryStoreEvictionPolicy="LFU" />
+
+</ehcache>
